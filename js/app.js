@@ -1,4 +1,4 @@
-window.onload = function() {
+
 
 var  inputadd = document.getElementsByClassName("js-add-list")[0].firstElementChild.children[1];
 var buttonadd = document.getElementsByClassName("js-add-list")[0].firstElementChild.children[2].firstElementChild;
@@ -102,7 +102,7 @@ divadd2.appendChild(ancoradd2);
 	inputadd.value = '';
 	}
 });
-}
+
 
 /*
 window.addEventListener('DOMContentLoaded', function(){
