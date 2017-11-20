@@ -117,7 +117,7 @@ window.addEventListener('DOMContentLoaded', function(){
 
 
 
-
+/*
 var  divCardfather = document.getElementsByClassName("board")[0].children[3].firstElementChild;
 
 var ancorCard = document.createElement("a");
