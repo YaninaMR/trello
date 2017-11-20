@@ -4,7 +4,7 @@ var  inputadd = document.getElementsByClassName("js-add-list")[0].firstElementCh
 var buttonadd = document.getElementsByClassName("js-add-list")[0].firstElementChild.children[2].firstElementChild;
 
 buttonadd.addEventListener('click',function(event){
-
+event.preventDefault();
 if(inputadd.value == '') {
 	alert("Por favor ingrese su lista esta vacio");
 	inputadd.focus();
