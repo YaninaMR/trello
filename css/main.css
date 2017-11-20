@@ -1,0 +1,54 @@
+
+.red {
+outline: 2px solid red;
+
+}
+.green{
+outline: 2px solid green;
+}
+.blue{
+outline: 2px solid blue;	
+}
+.classdiv{
+outline: 2px solid pink;
+}
+.classh2{
+outline: 2px solid purple;
+width: 70%;
+display: inline-block;
+padding: 0;
+margin: 0;
+}
+
+.classtextarea{
+ outline: 2px solid yellow;	
+}
+.classp{
+ outline: 2px solid black;	
+}
+.classdivhijo12{
+outline: 2px solid orange;
+}
+
+.classspan1{
+ outline: 2px solid red;
+}
+.classspan11{
+	outline: 2px solid black;
+}
+.classancor{
+	outline: 2px solid lightblue;
+}
+.classdivhijo2{
+	outline: 2px solid brown;
+}
+.classancodivhijo1{
+	outline: 2px solid gray;
+}
+.classancorCard{
+   outline: 3px solid lightpink;
+
+}
+.classlistDiv{
+	outline: 3px solid  black;
+}
