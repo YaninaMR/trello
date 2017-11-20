@@ -106,7 +106,7 @@ divadd2.appendChild(ancoradd2);
 	});
 
 
-
+/*
 window.addEventListener('DOMContentLoaded', function(){
 
 
@@ -145,6 +145,6 @@ span1.appendChild(span2);
 inputadd.value = '';
 
 
-});
+}); */
 
 
