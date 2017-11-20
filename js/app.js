@@ -1,5 +1,4 @@
-
-
+window.onload = function() {
 
 var  inputadd = document.getElementsByClassName("js-add-list")[0].firstElementChild.children[1];
 var buttonadd = document.getElementsByClassName("js-add-list")[0].firstElementChild.children[2].firstElementChild;
@@ -9,7 +8,7 @@ buttonadd.addEventListener('click',function(event){
 if(inputadd.value == '') {
 	alert("Por favor ingrese su lista esta vacio");
 	inputadd.focus();
-} 
+}
 else {
 
 
@@ -26,7 +25,7 @@ divhijo1.setAttribute("class","blue");
 hijo1.appendChild(divhijo1);
 
 var  divhijo11 = document.createElement("div");
-divhijo11.setAttribute("class","classdiv"); 
+divhijo11.setAttribute("class","classdiv");
 divhijo1.appendChild(divhijo11);
 
 var h2 = document.createElement("h2");
@@ -99,12 +98,11 @@ divadd1.appendChild(input);
 divadd1.appendChild(ancoradd1);
 divadd2.appendChild(ancoradd2);
 
-//agregar un texto 
+//agregar un texto
 	inputadd.value = '';
 	}
-
-	});
-
+});
+}
 
 /*
 window.addEventListener('DOMContentLoaded', function(){
@@ -115,13 +113,13 @@ window.addEventListener('DOMContentLoaded', function(){
 
 		buttonaddCard.addEventListener('click',function(e){
 		alert("Por favor ingrese su tarjeta esta vacio");
-		});
- 	
+	});*/
+
 
 
 
 var  divCardfather = document.getElementsByClassName("board")[0].children[3].firstElementChild;
-                     
+
 var ancorCard = document.createElement("a");
 ancorCard.setAttribute("class","classancorCard");
 ancorCard.setAttribute("href","/c/kp2JE5f1/8-tarjeta2");
@@ -140,11 +138,9 @@ span1.appendChild(textspan1);
 listDiv.appendChild(span1);
 var span2 = document.createElement("span");
 span1.appendChild(span2);
-
-//agregar un texto 
+/*
+//agregar un texto
 inputadd.value = '';
 
 
 }); */
-
-
