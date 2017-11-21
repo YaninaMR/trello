@@ -1,4 +1,24 @@
+body{
+background-color: rgb(0, 121, 191);
 
+}
+h2.fa{
+ margin: auto;
+ color: #FFF;
+ text-align: center;
+ padding-bottom: 15px;
+ position: relative;
+ left: 30%;
+ 
+}
+
+#div-add{
+  background-color:#FFF;
+  color: #4d4d4d;
+}
+#add-card{
+  padding: 10px	
+}
 .red {
 outline: 2px solid red;
 
